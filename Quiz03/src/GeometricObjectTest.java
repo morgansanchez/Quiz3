@@ -5,15 +5,16 @@ import org.junit.Test;
 public class GeometricObjectTest {
 
 	@Test
-	public void test() {
-		
+	public final void() {
+
 	}
 	
-	c.getArea(9, 6, 13);
-	assertEquals("Expected 23.6643, acutal is 23.6643",(long)c.Triangle(),(23.6643));
-			
+	
 	c.getArea(3, 8, 7);
 	assertEquals("Expected 10.3923, acutal is 10.3923", (long)c.Triangle(),(10.3923));
+	
+	c.getArea(9, 3, 6);
+	assertEquals("Expected 23.6643, acutal is 23.6643", (long)c.Triangle(),(23.6643));
 	
 	c.getPerimeter(2, 3, 4);
 	assertEquals("Expected 9, acutal is 9", (long)c.Triangle(),(9));
